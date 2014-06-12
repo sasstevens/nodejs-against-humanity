@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/amirrajan/nodejs-against-humanity.git"
+    "url": "git://github.com/sasstevens/nodejs-against-humanity.git"
   },
   "dependencies": {
     "express": "~3.4.4",
@@ -23,7 +23,7 @@
     "redis-url": "0.1.0",
     "request": "~2.27.0"
   },
-  "subdomain": "nah-amir-rajan",
+  "subdomain": "cards-hogwartsishome",
   "engines": {
     "node": "0.10.x"
   }
