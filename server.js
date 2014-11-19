@@ -7,13 +7,7 @@ var players = { };
 var io = require('socket.io').listen(server);
 var socketCount = 0;
 
-/* server.listen(process.env.PORT || 3000); */
-
-var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
-var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-server.listen( port, ipaddress, function() {
-    console.log((new Date()) + ' Server is listening on port 8080');
-});
+server.listen(process.env.PORT || 3000);
 
 
 
